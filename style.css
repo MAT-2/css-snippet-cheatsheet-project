@@ -55,6 +55,20 @@ footer {
   border-width: 2px;
 }
 
+.description {
+  position: relative;
+  right: 85px;
+  color: rgb(0, 174, 255);
+  font-size: 20px;
+}
+
+.exampleCode {
+  position: relative;
+  right: 85px;
+  font-size: 20px;
+  color: white;
+}
+
 #caption p {
   text-align: center;
   color: white;
