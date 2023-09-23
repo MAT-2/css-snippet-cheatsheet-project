@@ -20,9 +20,15 @@ main {
 }
 
 .cardTitle {
+  position: relative;
+  bottom: 140px;
   border-radius: 10%;
   border: solid 2px white;
-  padding: 10px;
+  background-color: rgb(36, 33, 33);
+  padding: 10px 10px;
+  margin-left: -85px;
+  margin-right: -85px;
+  text-align: left;
 }
 
 .card {
