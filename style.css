@@ -63,10 +63,11 @@ footer {
 }
 
 .exampleCode {
-  position: relative;
-  right: 85px;
+  display: flex;
+  text-align: left;
   font-size: 20px;
   color: white;
+  border: solid red 2px;
 }
 
 #caption p {
