@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(36, 33, 33);
   color: rgb(0, 174, 255);
@@ -52,7 +56,7 @@ footer {
 }
 
 .card {
-  flex: 1 0 33%;
+  flex: 1 1 33%;
   text-align: center;
   padding: 100px;
   margin: 30px;
@@ -75,7 +79,15 @@ footer {
   text-align: left;
   font-size: 20px;
   color: white;
-  border: solid red 2px;
+  border: solid white 2px;
+  width: 100%;
+  background: rgb(165, 186, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(165, 186, 255, 1) 0%,
+    rgba(20, 178, 252, 1) 12%,
+    rgba(42, 64, 173, 1) 100%
+  );
 }
 
 #caption p {
