@@ -14,6 +14,13 @@ main {
   margin-top: 2%;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}
+
 #caption {
   font-size: 20px;
   margin: 0;
